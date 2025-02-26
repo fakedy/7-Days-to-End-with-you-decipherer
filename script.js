@@ -35,7 +35,7 @@ function calculate() {
     
         usedText = shiftedText;
         shiftedText = "";
-        element.innerText = "shift " + i + ": " + usedText;
+        element.innerText = "shift " + i+1 + ": " + usedText;
         outputDiv.appendChild(element);
     }
 
